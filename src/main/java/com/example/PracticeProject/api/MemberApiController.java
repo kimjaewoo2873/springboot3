@@ -17,7 +17,7 @@ public class MemberApiController {
     private MemberService memberService;
 
     // GET
-    @GetMapping("/signup")
+    @GetMapping("/api/signup")
     public String newMemberForm() {
         return "members/new";
     }
